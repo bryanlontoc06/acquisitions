@@ -1,0 +1,23 @@
+fastapi_aiprompt/
+├── src/
+│   ├── __init__.py
+│   ├── main.py          # Entry point (FastAPI())
+│   ├── router/             # Main router
+│   │   ├── __init__.py
+│   │   ├── prompts.py
+│   │   │── users.py
+│   │   │
+│   │   │
+│   │   │
+│   ├── core/            # Config, Security, Settings (pydantic-settings)
+│   ├── crud/            # CRUD operations (logic for MySQL)
+│   ├── models/          # SQLAlchemy/SQLModel (Database tables)
+│   ├── schemas/         # Pydantic (Request/Response models)
+│   └── db/              # SessionLocal and Base engine setup
+├── .env                 # Environment variables
+├── docker-compose.yml
+├── requirements.txt
+└── tests/               # Pytest folder
+    ├── __init__.py
+    ├── test_prompts.py
+    └── test_users.py
