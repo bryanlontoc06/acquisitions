@@ -27,3 +27,91 @@
 2026-04-03 00:22:52.690 | SUCCESS  | src.main:lifespan:28 - ✅ Database sync complete. Tables are ready!
 2026-04-03 00:31:02.851 | WARNING  | src.main:lifespan:32 - 🛑 Database connection closed. Application shutdown.
 2026-04-03 00:31:02.851 | WARNING  | src.main:lifespan:32 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:39:18.140 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:39:18.188 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:39:18.188 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:39:18.189 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:39:18.189 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:39:22.907 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:39:22.907 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:40:51.158 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:40:51.158 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:40:52.728 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:40:52.794 | INFO     | src.main:lifespan:24 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:40:52.794 | INFO     | src.main:lifespan:24 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:40:52.795 | INFO     | src.main:lifespan:25 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:40:52.795 | INFO     | src.main:lifespan:25 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:40:56.898 | SUCCESS  | src.main:lifespan:28 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:40:56.898 | SUCCESS  | src.main:lifespan:28 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:41:09.462 | WARNING  | src.main:lifespan:32 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:41:09.462 | WARNING  | src.main:lifespan:32 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:41:10.882 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:41:10.931 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:41:10.931 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:41:10.931 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:41:10.931 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:41:14.967 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:41:14.967 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:10.328 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:46:10.328 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:46:11.690 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:46:11.742 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:11.742 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:11.742 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:11.742 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:15.957 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:15.957 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:30.959 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:46:30.959 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:46:32.235 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:46:32.292 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:32.292 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:32.292 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:32.292 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:36.386 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:36.386 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:36.494 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:46:36.494 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:46:37.671 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:46:37.734 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:37.734 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:37.735 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:37.735 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:41.804 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:41.804 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:49.833 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:46:49.888 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:49.888 | INFO     | src.main:lifespan:25 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:46:49.888 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:49.888 | INFO     | src.main:lifespan:26 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:46:53.806 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:46:53.806 | SUCCESS  | src.main:lifespan:29 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:49:43.067 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:49:43.067 | WARNING  | src.main:lifespan:33 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:49:44.566 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:49:44.643 | INFO     | src.main:lifespan:26 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:49:44.643 | INFO     | src.main:lifespan:26 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:49:44.644 | INFO     | src.main:lifespan:27 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:49:44.644 | INFO     | src.main:lifespan:27 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:49:48.569 | SUCCESS  | src.main:lifespan:30 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:49:48.569 | SUCCESS  | src.main:lifespan:30 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:49:48.680 | WARNING  | src.main:lifespan:34 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:49:48.680 | WARNING  | src.main:lifespan:34 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:49:49.774 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:49:49.887 | INFO     | src.main:lifespan:26 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:49:49.887 | INFO     | src.main:lifespan:26 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:49:49.887 | INFO     | src.main:lifespan:27 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:49:49.887 | INFO     | src.main:lifespan:27 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:49:54.131 | SUCCESS  | src.main:lifespan:30 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:49:54.131 | SUCCESS  | src.main:lifespan:30 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:49:54.239 | WARNING  | src.main:lifespan:34 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:49:54.239 | WARNING  | src.main:lifespan:34 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:49:55.447 | INFO     | src.db.database:<module>:14 - 🔍 Loading environment variables from: local
+2026-04-03 00:49:55.516 | INFO     | src.main:lifespan:26 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:49:55.516 | INFO     | src.main:lifespan:26 - 🚀 Initializing models from: src.dbModels
+2026-04-03 00:49:55.516 | INFO     | src.main:lifespan:27 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:49:55.516 | INFO     | src.main:lifespan:27 - 📦 Tables detected in registry: ['users']
+2026-04-03 00:49:59.616 | SUCCESS  | src.main:lifespan:30 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:49:59.616 | SUCCESS  | src.main:lifespan:30 - ✅ Database sync complete. Tables are ready!
+2026-04-03 00:57:07.666 | WARNING  | src.main:lifespan:34 - 🛑 Database connection closed. Application shutdown.
+2026-04-03 00:57:07.666 | WARNING  | src.main:lifespan:34 - 🛑 Database connection closed. Application shutdown.
