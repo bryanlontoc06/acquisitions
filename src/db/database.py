@@ -3,11 +3,18 @@ import urllib.parse
 from pathlib import Path
 
 from dotenv import load_dotenv
+from loguru import logger
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.orm import DeclarativeBase
 
-env_path = Path(__file__).resolve().parent.parent / "core/config" / ".env"
+logger.add("logs/combined.log", rotation="10 MB", retention="10 days")
+
+app_env = os.getenv("APP_ENV", "local")
+env_file = f".env.{app_env}"
+logger.info(f"🔍 Loading environment variables from: {app_env}")
+env_path = Path(__file__).resolve().parent.parent / "core/config" / env_file
 load_dotenv(dotenv_path=env_path)
+app_env = os.getenv("APP_ENV", "local")
 raw_password = os.getenv("DB_PASSWORD")
 db_user = os.getenv("DB_USER")
 db_host = os.getenv("DB_HOST")
