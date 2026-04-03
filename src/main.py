@@ -10,7 +10,7 @@ from starlette.middleware.base import RequestResponseEndpoint
 
 from . import dbModels
 from .db.database import Base, engine
-from .routers import sample
+from .routers import sample, token, users
 
 load_dotenv()
 env = os.getenv("APP_ENV", "development")
@@ -62,6 +62,8 @@ async def add_security_headers(
 
 
 app.include_router(sample.router, prefix="/v1/sample", tags=["sample"])
+app.include_router(users.router, prefix="/v1/users", tags=["users"])
+app.include_router(token.router, prefix="/v1/tokens", tags=["tokens"])
 
 
 @app.get("/health", status_code=200, tags=["health"])
