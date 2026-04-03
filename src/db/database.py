@@ -12,7 +12,7 @@ logger.add("logs/combined.log", rotation="10 MB", retention="10 days")
 app_env = os.getenv("APP_ENV", "local")
 env_file = f".env.{app_env}"
 logger.info(f"🔍 Loading environment variables from: {app_env}")
-env_path = Path(__file__).resolve().parent.parent / "core/config" / env_file
+env_path = Path(__file__).resolve().parent.parent / "core" / env_file
 load_dotenv(dotenv_path=env_path)
 app_env = os.getenv("APP_ENV", "local")
 raw_password = os.getenv("DB_PASSWORD")
