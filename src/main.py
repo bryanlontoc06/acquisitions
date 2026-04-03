@@ -64,5 +64,15 @@ async def add_security_headers(
 app.include_router(sample.router, prefix="/v1/sample", tags=["sample"])
 
 
+@app.get("/health", status_code=200, tags=["health"])
+async def health_check():
+    return {"status": "ok"}
+
+
+@app.get("/ready", status_code=200, tags=["health"])
+async def readiness_check():
+    return {"status": "ready"}  # Placeholder for actual uptime logic
+
+
 if __name__ == "__main__":
     uvicorn.run("src.main:app", port=port, reload=True)
