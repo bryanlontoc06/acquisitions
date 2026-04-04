@@ -3,12 +3,13 @@ from contextlib import asynccontextmanager
 
 import uvicorn
 from dotenv import load_dotenv
-from fastapi import FastAPI, Request, Response
+from fastapi import Depends, FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 from starlette.middleware.base import RequestResponseEndpoint
 
 from . import dbModels
+from .core.security import verify_arcjet
 from .db.database import Base, engine
 from .routers import sample, token, users
 
@@ -34,7 +35,11 @@ async def lifespan(_app: FastAPI):
     logger.warning("🛑 Database connection closed. Application shutdown.")
 
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(
+    lifespan=lifespan,
+    dependencies=[Depends(verify_arcjet)],
+    redirect_slashes=False,
+)
 
 app.add_middleware(
     CORSMiddleware,
